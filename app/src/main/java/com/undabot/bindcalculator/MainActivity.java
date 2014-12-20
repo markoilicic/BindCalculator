@@ -18,6 +18,7 @@ public class MainActivity extends ActionBarActivity {
     Button btnClick;
     @InjectView(R.id.tv_result)
     TextView tvResultLabel;
+
     private int mNumOne = 0;
     private int mNumTwo = 1;
     private int rez;
