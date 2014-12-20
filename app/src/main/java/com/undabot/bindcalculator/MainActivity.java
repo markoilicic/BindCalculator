@@ -19,6 +19,7 @@ public class MainActivity extends ActionBarActivity {
     @InjectView(R.id.tv_result)
     TextView tvResultLabel;
 
+    //Inital values
     private int mNumOne = 0;
     private int mNumTwo = 1;
     private int rez;
@@ -39,6 +40,11 @@ public class MainActivity extends ActionBarActivity {
         });
     }
 
+    /**
+     * Get sum of last two results and set new values
+     *
+     * @return int
+     */
     public int getResult() {
         rez = mNumOne + mNumTwo;
         mNumOne = mNumTwo;
