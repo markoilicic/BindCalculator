@@ -24,4 +24,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:21.0.3'
 
     compile 'com.netflix.rxjava:rxjava-android:0.19.6'
+    compile 'com.jakewharton:butterknife:6.0.0'
 }
